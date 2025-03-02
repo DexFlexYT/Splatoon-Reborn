@@ -1,0 +1,3 @@
+scoreboard objectives add debug dummy
+execute store result score #gametime debug run time query gametime
+tellraw @a[tag=debug] [{"text":"Ⓓ: ","color": "#44cc55"},{"selector":"@s","underlined": true,"color": "aqua"},{"text": " datapack loaded (splatoon_reborn:load.mcfunction)'","color": "#44cc55"},{"text": "  gt:","color": "dark_gray"},{"score":{"name":"#gametime","objective":"debug"},"color": "dark_gray"}]
