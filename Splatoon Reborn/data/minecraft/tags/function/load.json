@@ -1,5 +1,6 @@
 {
 	"values": [
-	"splatoon_reborn:load"
+	"splatoon_reborn:load",
+	"teams:global/load"
 	]
 }
